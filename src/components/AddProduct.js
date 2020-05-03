@@ -130,10 +130,10 @@ class AddProduct extends Component {
 
 
     e.preventDefault();
-    var abc = this.state.product_image;
-    abc = abc.match(/\.(jpeg|jpg|gif|png)$/) != null
+    var checkImageUrl = this.state.product_image;
+    checkImageUrl = checkImageUrl.match(/\.(jpeg|jpg|gif|png)$/) != null
     this.props.onAddOrEdit()
-    if (this.props.currentIndex == -1 && abc) {
+    if (this.props.currentIndex == -1 && checkImageUrl) {
 
       this.props.addProduct(this.state)
       this.setState({
@@ -145,7 +145,7 @@ class AddProduct extends Component {
         orderType: "instock"
       })
     }
-    else if (abc == false) {
+    else if (checkImageUrl == false) {
       alert("Invalid Image ( Url should end with jpeg or jpg or gif or png) ")
 
     }
