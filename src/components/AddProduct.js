@@ -199,7 +199,7 @@ class AddProduct extends Component {
                 </div>
 
                 <div className="form-group">
-                  <label className="col-md-4 control-label" >Enter Product Image</label>
+                  <label className="col-md-4 control-label" >Product Image Url</label>
                   <div className="col-md-6">
 
                     <input type="text" className="form-control" required onChange={this.handleProductImage} value={this.state.product_image} />

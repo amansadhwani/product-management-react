@@ -42,11 +42,11 @@ export var initialState = {
     },
     {
       "id": 0.4517122543626810,
-      "product_title": "Lorem Ispum",
+      "product_title": "Mother Modonna",
       "product_desc": "Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
       "product_price": 38900,
       "product_rating": 1,
-      "product_image": "https://cdn.pixabay.com/photo/2016/02/19/11/31/graffiti-wall-1209761_1280.jpg",
+      "product_image": "https://cdn.pixabay.com/photo/2015/11/24/19/14/mother-of-perpetual-help-1060612_960_720.jpg",
       "orderType": "instock",
       "visible": true
     },
