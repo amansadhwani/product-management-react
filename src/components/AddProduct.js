@@ -155,7 +155,7 @@ class AddProduct extends Component {
   }
 
   render() {
-    ;
+    
     const { productData } = this.props
     return (
       <div className="container">
